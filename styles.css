@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --primary-color: lightgreen;
+}
+
+header {
+    height: 100vh;
+    color: var(--primary-color);
+    background-image: url(/images/heropubgone.jpg);
+   background-size: cover;
+   padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-heading {
+    padding: 30px;
+}
+
+p {
+    color: rgb(233, 169, 169);
+}
+.content{
+    display: flex;
+    height: 40vh;
+    justify-content: space-evenly;
+    padding: 12vh 0;
+}
+.maps{
+    flex-basis: 25vw;
+   text-align: center;
+}
+.base{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/Awm\ Sniper\ Vector.jpg);
+    background-size: cover;
+    color: var(--primary-color);
+}
