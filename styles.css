@@ -67,3 +67,7 @@ p {
     color: var(--primary-color);
     padding: 1em;
 }
+a{
+    text-decoration: none;
+    color: rgb(10, 123, 252);
+}
