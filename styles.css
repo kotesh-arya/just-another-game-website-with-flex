@@ -1,19 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 * {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 :root {
     --primary-color: lightgreen;
 }
+.nav-bar{
+    display: flex;
+    list-style-type: none;
+    background-image: radial-gradient(circle, #ffffff, #f1f1f4, #e4e4e9, #d5d7df, #c7cad4, #b2b3bd, #9d9ca6, #88868f, #666268, #454145, #252324, #000000);
+    color: whitesmoke;
 
+}
+.item{
+padding:0px  15px;
+}
+.search{
+    flex: 4;
+    background-color: black;
+    color: whitesmoke;
+}
 header {
     height: 100vh;
     color: var(--primary-color);
-    background-image: url(/images/heropubgone.jpg);
-   background-size: cover;
+    background-image: radial-gradient(circle, #ffffff, #f1f1f4, #e4e4e9, #d5d7df, #c7cad4, #b2b3bd, #9d9ca6, #88868f, #666268, #454145, #252324, #000000);
    padding: 1em;
     display: flex;
     flex-direction: column;
@@ -23,28 +35,35 @@ header {
 
 .hero-heading {
     padding: 30px;
+    font-family: 'Zen Dots', cursive;
 }
 
 p {
-    color: rgb(233, 169, 169);
+    color: #412728;
+    font-size: 19px;
+    
 }
 .content{
     display: flex;
-    height: 40vh;
+  
     justify-content: space-evenly;
-    padding: 12vh 0;
+    padding: 4vh 0;
+    margin: 0px;
 }
 .maps{
     flex-basis: 25vw;
    text-align: center;
+   padding: 20px;
 }
 .base{
+    max-width: 100%;
     height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/Awm\ Sniper\ Vector.jpg);
+ background-color:#000;
     background-size: cover;
     color: var(--primary-color);
+    padding: 1em;
 }
